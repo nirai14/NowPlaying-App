@@ -13,41 +13,47 @@ const Footer = () => {
                             <h2 className=" relative right-2 pt-5 text-[20px] font-semibold text-red-800">NowPlaying</h2>
                         </Link>
                     </div>
-                    <div className="grid grid-cols-3 sm:flex-col gap-4 ">
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase text-red-800">Resources</h2>
-                            <ul className="text-red-800 text-[13px] ">
-                                <li className="mb-4">
-                                    <Link href="https://flowbite.com" className="hover:underline">NowPlaying</Link>
-                                </li>
-                                <li>
-                                    <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold  uppercase text-red-800">Follow us</h2>
-                            <ul className="text-red-800 text-[13px]">
-                                <li className="mb-4">
-                                    <Link href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</Link>
-                                </li>
-                                <li>
-                                    <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase text-red-800">Legal</h2>
-                            <ul className="text-red-800 text-[13px]">
-                                <li className="mb-4">
-                                    <Link href="#" className="hover:underline">Privacy Policy</Link>
-                                </li>
-                                <li>
-                                    <Link href="#" className="hover:underline">Terms &amp; Conditions</Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                  <div className="flex flex-col gap-6 sm:flex-col md:flex-row md:gap-8 items-center md:items-start mt-4 md:mt-0">
+  <div className="text-center md:text-left">
+    <h2 className="mb-3 text-sm font-semibold uppercase text-red-800">Resources</h2>
+    <ul className="text-red-800 text-[13px]">
+      <li className="mb-2">
+        <Link to="#" className="hover:underline">NowPlaying</Link>
+      </li>
+      <li>
+        <Link to="#" className="hover:underline">Tailwind CSS</Link>
+      </li>
+    </ul>
+  </div>
+
+  <div className="text-center md:text-left">
+    <h2 className="mb-3 text-sm font-semibold uppercase text-red-800">Follow us</h2>
+    <ul className="text-red-800 text-[13px]">
+      <li className="mb-2">
+        <Link to="#" className="hover:underline">Github</Link>
+      </li>
+      <li>
+        <Link to="#" className="hover:underline">Discord</Link>
+      </li>
+    </ul>
+  </div>
+
+  <div className="text-center md:text-left">
+    <h2 className="mb-3 text-sm font-semibold uppercase text-red-800">Legal</h2>
+    <ul className="text-red-800 text-[13px]">
+      <li className="mb-2">
+        <Link to="#" className="hover:underline">Privacy Policy</Link>
+      </li>
+      <li>
+        <Link to="#" className="hover:underline">Terms & Conditions</Link>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
                 </div>
                 <hr className="w-full my-6 border-red-800" />
                 <div className="flex flex-col text-center justify-center 
